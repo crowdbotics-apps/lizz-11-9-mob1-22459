@@ -28,6 +28,7 @@ export default class Blank extends React.Component {
   render = () => (
     <View>
       <Text>I made this content when i first edited the screen</Text>
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
@@ -37,6 +38,10 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
-  Text_3: {}
+  Text_3: {},
+  View_1: {},
+  Text_3: {},
+  Button_5: {}
 })
