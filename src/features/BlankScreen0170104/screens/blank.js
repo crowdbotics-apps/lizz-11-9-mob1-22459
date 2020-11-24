@@ -57,6 +57,7 @@ export default class Blank extends React.Component {
         pickles and onions, tomatoes are a must-have. Celery and chives are
         tasty in a stew, but they aren&#39;t the most filling sometimes.
       </Text>
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
@@ -66,6 +67,30 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
+  View_1: { justifyContent: "center", alignItems: "center" },
+  Text_3: {
+    fontSize: 24,
+    color: "#db57ff",
+    fontFamily: "Merriweather-Bold",
+    textAlign: "center"
+  },
+
+  Image_5: {
+    height: 100,
+    paddingTop: 10,
+    paddingBottom: 10,
+    borderColor: "#824dff",
+    borderWidth: 2,
+    borderRadius: 10
+  },
+
+  View_6: { width: "100%", flexDirection: "row" },
+  View_7: { paddingLeft: 10, paddingRight: 10 },
+  Button_16: {},
+  View_8: { paddingLeft: 10, paddingRight: 10 },
+  Button_17: {},
+  Text_18: { height: 200, textAlignVertical: "top" },
   View_1: { justifyContent: "center", alignItems: "center" },
   Text_3: {
     fontSize: 24,
@@ -86,5 +111,6 @@ const styles = StyleSheet.create({
   Button_16: {},
   View_8: { paddingLeft: 10, paddingRight: 10 },
   Button_17: {},
-  Text_18: { height: 200, textAlignVertical: "top" }
+  Text_18: { height: 200, textAlignVertical: "top" },
+  Button_19: {}
 })
